@@ -41,7 +41,7 @@ var server = http.createServer(function (request, response) {
     ".css": "text/css",
     ".js": "text/javascript",
     ".json": "text/json",
-    ".jpg": "text/jpg",
+    ".jpg": "text/jpg"
     ".png": "text/png",
   };
   response.setHeader(
